@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/302e2e7116.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><span>James Coronel</span></a>
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <button id="menuBtn" type="button">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <button class="visit-btn">Visit Github</button>
+    </header>
+
+    <section id="about" class="about">
+      <div class="about-container">
+        <img src="Images\ProfilePic.png" alt="ProfilePic" />
+
+        <div class="info-box">
+          <div class="text">
+            <h3>Hi, I'm</h3>
+            <h1>James Coronel</h1>
+            <span>Aspiring Web Developer</span>
+          </div>
+
+          <div class="btn-group">
+            <div class="btn">Resume</div>
+            <div class="btn">Contact</div>
+          </div>
+
+          <div class="socials">
+            <i class="fa-brands fa-github">TEST</i>
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-info">
+        <div class="grid">
+          <div class="grid-card">
+            <i class="fa-solid fa-code"></i>
+            <span>Frontend Development</span>
+            <ul class="frontend-skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-database"></i>
+            <span>Tools & Database</span>
+            <ul class="tools-skills">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>MySQL</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-book-open"></i>
+            <span>Currently Learning</span>
+            <ul class="learning">
+              <li>Responsive Design</li>
+              <li>UI/UX</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">Recent Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="Images\ProjectEx1.jpg" alt="Project1" />
+          <h3>Project X</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt,
+            repellat?
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">GitHub Repo</div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Images\ProjectEx2.jpg" alt="Project2" />
+          <h3>Project Y</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt,
+            repellat?
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">GitHub Repo</div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="Images\ProjectEx3.jpg" alt="Project3" />
+          <h3>Project Z</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt,
+            repellat?
+          </p>
+          <div class="btn-group">
+            <div class="btn">Live Demo</div>
+            <div class="btn">GitHub Repo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="input-box">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="input">
+          <input
+            type="text"
+            placeholder="exampleemail@gmail.com"
+            id="email"
+            name="email"
+            autocomplete="email"
+          />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="btn">Submit</div>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <p class="copyright">&copy; All rights reserved | James Coronel</p>
+    </footer>
+  </body>
+</html>
