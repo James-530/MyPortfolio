@@ -41,6 +41,7 @@ header {
   font-weight: 600;
   text-wrap: nowrap;
   transition: 0.3s ease-in-out;
+  margin-right: auto;
 }
 
 .logo:hover {
@@ -49,7 +50,7 @@ header {
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   background: none;
 }
 
@@ -87,6 +88,7 @@ li a:hover::before {
   text-wrap: nowrap;
   transition: 0.3s ease-in-out;
   background: var(--accent);
+  margin-left: auto;
 }
 
 .visit-btn:hover {
